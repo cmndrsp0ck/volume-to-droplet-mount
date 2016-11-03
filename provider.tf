@@ -28,9 +28,6 @@ variable "probe_image" {}
 
 variable "probe_size" {}
 
-# NFS host vars
-variable "nfs_host_size" {}
-
 variable "volume_size" {}
 
 provider "digitalocean" {
