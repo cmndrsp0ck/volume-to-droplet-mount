@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - /home/fabian/workspace/digitalocean/playground/droplet-to-volume-attach/roles/honeypot

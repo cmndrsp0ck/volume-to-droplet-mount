@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: yes
+  become: True
+
+- hosts: honey_pot
+  roles:
+    - blockstore_config
+  become: True
